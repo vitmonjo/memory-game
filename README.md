@@ -1,6 +1,6 @@
 # React + Vite
 
-This project was made as an assignment in the The Odin's Project React Course. The markup and styling are done with HTML + CSS, and the whole layout and logic are done with React through Vite.
+This project was made as an assignment in The Odin's Project React Course. The markup and styling are done with HTML + CSS, and the whole layout and logic are done with React through Vite.
 
 The main purpose of the application is to fetch data from an API, PokéAPI (https://pokeapi.co/) being the chosen one, and use that info to display a simple memory game.
 

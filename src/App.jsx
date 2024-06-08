@@ -39,10 +39,12 @@ function App() {
   }
 
   function startGame() {
-    fetchPokemons(intervals[selectedInterval], numOfCards).then((pokemonsObject) => {
-      resetGame();
-      setPokemons(pokemonsObject);
-    });
+    if (intervals[selectedInterval] !== undefined) {
+      fetchPokemons(intervals[selectedInterval], numOfCards).then((pokemonsObject) => {
+        resetGame();
+        setPokemons(pokemonsObject);
+      });
+    }
   }
 
   function checkChoice(choice) {
